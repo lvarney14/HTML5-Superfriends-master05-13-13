@@ -7,6 +7,11 @@ body > div {
 	
 }
 
+body > div:after {
+	content: '.';
+	clear: both;
+}
+
 /* Logo */
 
 nav img {
@@ -19,11 +24,19 @@ nav img {
 
 nav {
 	width: 960px;
+	
 }
 
 section {
+	background: purple;
 	float: left;
 	width: 240px;
+}
+
+section:hover {
+	background: gold;
+	transition: background 1s;
+	
 }
 
 /* footer */
@@ -32,4 +45,5 @@ footer p {
 	width: 480px;
 	background: red;
 	float: left;
+	
 }
