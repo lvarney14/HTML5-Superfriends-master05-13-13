@@ -1,0 +1,35 @@
+/* Containter */
+
+body > div { 
+	background: #6F3;
+	margin: 0 auto;
+	width: 960px;
+	
+}
+
+/* Logo */
+
+nav img {
+	position: fixed;
+	top: 0;
+	left: 15px;
+}
+
+/* Structure */
+
+nav {
+	width: 960px;
+}
+
+section {
+	float: left;
+	width: 240px;
+}
+
+/* footer */
+
+footer p {
+	width: 480px;
+	background: red;
+	float: left;
+}
